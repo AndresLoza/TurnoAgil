@@ -1,0 +1,25 @@
+library TurnoAgilIsApi;
+
+uses
+  Winapi.ActiveX,
+  System.Win.ComObj,
+  Web.WebBroker,
+  Web.Win.ISAPIApp,
+  Web.Win.ISAPIThreadPool,
+  WebModuleUnit1 in '..\standalone\WebModuleUnit1.pas' {WebModule1: TWebModule},
+  ServerMethodTurnoAgil in '..\standalone\ServerMethodTurnoAgil.pas' {DataModule1: TDataModule},
+  ServerContainerUnit1 in '..\standalone\ServerContainerUnit1.pas' {DataModule2: TDataModule};
+
+{$R *.res}
+
+exports
+  GetExtensionVersion,
+  HttpExtensionProc,
+  TerminateExtension;
+
+begin
+  CoInitFlags := COINIT_MULTITHREADED;
+  Application.Initialize;
+  Application.WebModuleClass := WebModuleClass;
+  Application.Run;
+end.

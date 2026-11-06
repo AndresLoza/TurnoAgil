@@ -1,0 +1,26 @@
+object DataModule1: TDataModule1
+  Height = 480
+  Width = 640
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=TurnoAgil'
+      'User_Name=root'
+      'Password=Ariana2023+'
+      'Server=localhost'
+      'DriverID=MySQL')
+    Left = 256
+    Top = 216
+  end
+  object FDQuery1: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'select * from estados_turno')
+    Left = 368
+    Top = 216
+  end
+  object FDPhysMySQLDriverLink1: TFDPhysMySQLDriverLink
+    VendorLib = 'C:\inetpub\wwwroot\MicroServicioTurnoAgil\libmysql.dll'
+    Left = 248
+    Top = 288
+  end
+end

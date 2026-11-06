@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2026/11/04 21:53:01.000.593,=C:\Users\camil\OneDrive\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2026/11/04 21:54:34.000.612,C:\TurnoAgil\standalone\WebModuleUnit1.pas=C:\Users\camil\OneDrive\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2026/11/04 21:54:34.000.612,C:\TurnoAgil\standalone\WebModuleUnit1.dfm=C:\Users\camil\OneDrive\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.dfm</Transaction>
+    <Transaction>2026/11/04 21:54:50.000.553,C:\TurnoAgil\isapi\TurnoAgilIsApi.dproj=C:\Users\camil\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2026/11/04 22:07:01.000.846,=C:\TurnoAgil\isapi\Unit1.pas</Transaction>
+    <Transaction>2026/11/04 22:07:30.000.025,C:\TurnoAgil\isapi\Unit1.pas=C:\TurnoAgil\standalone\ServerMethodTurnoAgil.pas</Transaction>
+    <Transaction>2026/11/04 22:07:30.000.025,C:\TurnoAgil\isapi\Unit1.dfm=C:\TurnoAgil\standalone\ServerMethodTurnoAgil.dfm</Transaction>
+    <Transaction>2026/11/04 22:38:25.000.056,=C:\TurnoAgil\isapi\Unit2.pas</Transaction>
+    <Transaction>2026/11/04 22:38:35.000.650,C:\TurnoAgil\isapi\Unit2.pas=C:\TurnoAgil\standalone\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2026/11/04 22:38:35.000.650,C:\TurnoAgil\isapi\Unit2.dfm=C:\TurnoAgil\standalone\ServerContainerUnit1.dfm</Transaction>
+    <Transaction>2026/11/04 22:46:29.000.489,=C:\TurnoAgil\isapi\Unit1.pas</Transaction>
+    <Transaction>2026/11/04 22:46:46.000.650,C:\TurnoAgil\isapi\Unit1.pas=C:\TurnoAgil\standalone\UDmTurnos.pas</Transaction>
+    <Transaction>2026/11/04 22:46:46.000.650,C:\TurnoAgil\isapi\Unit1.dfm=C:\TurnoAgil\standalone\UDmTurnos.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
